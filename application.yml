@@ -1,0 +1,16 @@
+spirng:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-test
+
+#必须为UTF-8格式
