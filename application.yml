@@ -1,4 +1,4 @@
-spirng:
+spring:
   profiles:
     active:
     - dev
